@@ -12,6 +12,7 @@ function PostsList({isPosting, onStopPosting}) {
   }
   return (
     <>
+    <h1>Test Push Code</h1>
       {isPosting ?
       (
         <Modal onClose={onStopPosting}>
